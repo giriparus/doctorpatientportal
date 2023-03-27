@@ -280,7 +280,7 @@ button.list-group-item:hover{
 
 		<?php } ?>
 	<div class="container">
-	<h2 style="position:absolute;"><a href="#ab" data-toggle="collapse">Welcome To Doctor Patient Portal</h2></a>
+	<h2 style="position:absolute;"><a href="#ab" data-toggle="collapse">Welcome To HealthLink</h2></a>
 	<div style="position:absolute; margin-top:15%;" class="collapse" id="ab">
 	<div style="width:100%; margin-top:-10%;" class="row">
 	<div class="col-md-6">
@@ -397,7 +397,7 @@ echo "<br><br>$p</div>";
 	<b>Total Verified Doctor <span class="badge"><?php echo $doc;?></span> |&nbsp; Total Patient Registered  <span class="badge"><?php echo $pat;?></span> |&nbsp; Total Appointments  <span class="badge"><?php echo $pen;?></span> |</b>
 	</div>
 	</div>
-	<div style="width:102.5%; margin-left:-1.2%;margin-top:-5%;" class="container footer"><center>&copy; 2017 | All Rights Reserved | Themed By <a style="color:white; cursor:pointer; target="_blank" href="https://www.facebook.com/ankitthegr8">@nkit</a> |
+	<div style="width:102.5%; margin-left:-1.2%;margin-top:-5%;" class="container footer"><center>&copy; 2023 | All Rights Reserved | Themed By <a style="color:white; cursor:pointer; target="_blank" href="https://www.linkedin.com/in/parus-giri-995594205/">parusgiri</a> |
 	<a style="color:white;" href="sitemap.php">Sitemap</a></center></div>
 	</div>
 

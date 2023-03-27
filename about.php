@@ -264,21 +264,15 @@ else{
 	<div style="float:left; margin-left:-1.2%;width:102.5%;" class="jumbotron">
 	
 	<center><p class="well" style="width:80%;font-family:calibri;text-align:justify;">
-	<b>About Portal :</b>
-	Doctor Patient Portal is a basic portal which helps those patients who stand in line for hours to take appointments with doctor in clinic or hospitals.
+	<b>About us :</b>
+	HealthLink is a basic portal which helps those patients who stand in line for hours to take appointments with doctor in clinic or hospitals.
 	This portal help to reduce lines in hospital. a simple registration which is free and with lifetime membership for both doctor and patient. Verified doctors with good reputation make our portal more trusty. We provide free services like their own dashboard to manage appointments, and other things. A Personal message system which helps to take precaution advice from doctor or for other health talk. It's also a move in digital india to make paper work less and work digitally.	
 	</p>
 	</center>
 	
 	
 	
-	<center><b>Behind The Scenes</b>
-	<br>
-	<span >Developed & Designed By : Ankit Kabra (2014PUSBABCAX02578)</span>
-	<br>
-	<span>Idea Behind This : Vardan Sharma (2014PUSBABCAX02551)</span>
 	
-	</center>
 	
 	</div>
 	<div style="width:102.5%; margin-left:-1.2%;margin-top:-5%;" class="container footer"><center>&copy; 2017 | All Rights Reserved | Themed By <a style="color:white; cursor:pointer; target="_blank" href="https://www.facebook.com/ankitthegr8">@nkit</a> |
