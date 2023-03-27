@@ -274,10 +274,10 @@ else{
 	
 	
 	
-	</div>
-	<div style="width:102.5%; margin-left:-1.2%;margin-top:-5%;" class="container footer"><center>&copy; 2017 | All Rights Reserved | Themed By <a style="color:white; cursor:pointer; target="_blank" href="https://www.facebook.com/ankitthegr8">@nkit</a> |
+	<div style="width:102.5%; margin-left:-1.2%;margin-top:-5%;" class="container footer"><center>&copy; 2023 | All Rights Reserved | Themed By <a style="color:white; cursor:pointer; target="_blank" href="https://www.linkedin.com/in/parus-giri-995594205/">parusgiri</a> |
 	<a style="color:white;" href="sitemap.php">Sitemap</a></center></div>
 	</div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
