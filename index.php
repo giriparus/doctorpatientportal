@@ -160,9 +160,9 @@ button.list-group-item:hover{
 	<?php
 	include('includes/conn.php');
 	@$eml = $_SESSION['useremail'];
-	$qry = "SELECT * FROM doctor where email = '$eml'";
-	$qry2 = "SELECT * FROM patient where email = '$eml'";
-	$qry3 = "SELECT * FROM admin where email = '$eml'";
+	$qry = "SELECT * FROM doctor where email = '" . $eml . "'";
+	$qry2 = "SELECT * FROM patient where email = '" . $eml . "'";
+	$qry3 = "SELECT * FROM admin where email = '" . $eml . "'";
 	$h = mysqli_query($con, $qry);
 	$h2 = mysqli_query($con, $qry2);
 	$h3 = mysqli_query($con, $qry3);
@@ -200,7 +200,7 @@ button.list-group-item:hover{
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
-	</button>
+	</button> 	
 	<a class="navbar-brand"><img width="85px" height="85px" style="margin-top:-38%;" title="Doctor Patient Portal" class="logomain" src="img/logom.png"/></a>
 	<div class="collapse navbar-collapse" id="coo">
 	
