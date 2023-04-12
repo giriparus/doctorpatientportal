@@ -20,8 +20,8 @@ $phone = $_POST['phone'];
 $docid = $_POST['docid'];
 $adrid = $_POST['adrid'];
 $cat = $_POST['doccat'];
-$question = $_POST['psques'];
-$answer = $_POST['answer'];
+#$question = $_POST['psques'];
+#$answer = $_POST['answer'];
 
 include('includes/conn.php');
 $q = "SELECT * FROM doctor where email ='$email'";
