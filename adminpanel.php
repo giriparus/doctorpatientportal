@@ -109,7 +109,7 @@ else{
   <div class="panel-heading"><span class="glyphicon glyphicon-signal"></span> User Statics</div>
   <div class="panel-body">
   <?php
-$con = mysqli_connect("localhost", "root", "",'dpp');
+$con = mysqli_connect("localhost", "root", "6152","dpp");
 $doccnt = mysqli_query($con,"SELECT COUNT(*) as cnt FROM doctor");
 $res = mysqli_fetch_array($doccnt);
 $doc = $res ['cnt'];

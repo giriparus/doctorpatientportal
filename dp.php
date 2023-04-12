@@ -20,8 +20,8 @@ $phone = $_POST['phone'];
 $docid = $_POST['docid'];
 $adrid = $_POST['adrid'];
 $cat = $_POST['doccat'];
-#$question = $_POST['psques'];
-#$answer = $_POST['answer'];
+
+
 
 include('includes/conn.php');
 $q = "SELECT * FROM doctor where email ='$email'";
@@ -103,12 +103,7 @@ if(($type1=="image/jpeg") || ($type1=="image/jpg") || ($type1=="image/png")){
 		echo 'alert("Select a doctor category first!");'; 
 		echo 'window.location.href = "index.php";';
 		echo '</script>';
-	}elseif($question == "Choose a security question"){
-		echo '<script type="text/javascript">'; 
-		echo 'alert("Select a security question first!");'; 
-		echo 'window.location.href = "index.php";';
-		echo '</script>';
-		}
+	}
 		else{
 	
 	if(($type == "application/pdf")){
@@ -161,8 +156,7 @@ $address = $_POST['paddress'];
 $gender = $_POST['pgender'];
 $phone = $_POST['p_phone'];
 $adrpt = $_POST['adridpt'];
-$question = $_POST['sques'];
-$answer = $_POST['answer'];
+
 
 include('includes/conn.php');
 $q = "SELECT * FROM doctor where email ='$email'";
@@ -225,12 +219,6 @@ else{
 	elseif($age>120){
 		echo '<script type="text/javascript">'; 
 		echo 'alert("Invalid age");'; 
-		echo 'window.location.href = "index.php";';
-		echo '</script>';
-	}elseif($question == "Choose a security question")
-	{
-		echo '<script type="text/javascript">'; 
-		echo 'alert("Choose a security question !");'; 
 		echo 'window.location.href = "index.php";';
 		echo '</script>';
 	}
